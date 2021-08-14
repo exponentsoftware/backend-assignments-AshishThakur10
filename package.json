@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/exponentsoftware/backend-assignments-AshishThakur10#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
   }
 }
