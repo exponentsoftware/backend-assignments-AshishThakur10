@@ -20,7 +20,9 @@ res.send('hi welcome to the server')
 })
 
 require('./models/user')
+require('./models/todo')
 
 app.use(require('./routes/user'));
+app.use(require('./routes/todo'));
 
 app.listen(PORT, function(){console.log('server started at 4000')});     //Listen on a port 
